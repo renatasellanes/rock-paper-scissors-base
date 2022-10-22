@@ -72,4 +72,16 @@ class RockPaperScissors {
 
         return this.gameOver
     }
+
+    reset () {
+        this.playerPoints = 0
+        this.cpuPoints = 0
+        this.playerChoice = ''//rock, paper, scissors
+        this.cpuChoice = '' //rock, paper, scissors
+        this.roundWinner = null //player ou cpu
+        this.roundsPlayed = 0
+        this.gameWinner = '' //player ou cpu
+        this.gameOver = false
+    }
+
 }
